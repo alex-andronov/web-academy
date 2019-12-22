@@ -1,0 +1,12 @@
+$main-color: red;
+$accent-color: aqua;
+
+.container {
+  background: red;
+  .child {
+    border: 1px solid yellow;
+  }
+  &-dark {
+    background: $accent-color;
+  }
+}
